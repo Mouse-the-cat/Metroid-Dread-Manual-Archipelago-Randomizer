@@ -7,12 +7,36 @@ This manual is designed for use with Poptracker, so you will need both [Archipel
 If you would prefer not to use the Poptracker, refer to IGN's guide for the names of checks. There are a number of innacuracies in their guide with regards to when items are reachable (OVER 50, I counted when testing/editing the apworld), so this isn't ideal.
 
 Before you start, there are a few things you should note:
-1. **Key upgrades are progressive and are labelled "Progressive Key Items" by the randomizer.** Each key upgrade is obtained in a specific order (see below), and if you need a certain item to get to a location, you also need all items before it. Since you still need to collect the items in game, this happens to be (based on my testing) the best and simplest way to reflect that in the randomizer.
-2. **To get each key upgrade, you need to unlock it first** (i.e. to unlock the Charge Beam check (as well as collect the Charge Beam in game), you need to receive the first Progressive Key Item, the second for Spider Magnet, etc.). This does technically mean these checks cannot have their original item; however, since you are typically locked in the room you obtain the upgrade until you use it, I felt this made the most sense. **The same applies for the Pulse Radar.**
+1. **Key upgrades are progressive and are labelled "Progressive Key Items" by the randomizer.** Each key upgrade is obtained in a specific order (see below), and if you need a certain item to get to a location, you also need all items before it. Since you still need to collect the items in game, this happens to be (based on my testing) the best and simplest way to reflect that in the randomizer. **You are expected to get each key upgrade in order; sequence breaks are only in logic if they don't involve getting key upgrades out of order and don't involve major hellruns.**
+2. **To get each key upgrade, you need to unlock it first** (i.e. to unlock the Charge Beam check (as well as collect the Charge Beam in game), you need to receive the first Progressive Key Item, the second for Spider Magnet, etc.). This does technically mean these checks cannot have their original item; however, since you are typically locked in the room you obtain the upgrade until you use it, I felt this made the most sense. **The same applies for the Pulse Radar, which is randomized seperately.**
 3. **Energy, missile, and power bomb tanks can be collected as usual in game, provided you follow the rules below.**
     - **If you lose more energy tanks than you've recieved from the randomizer, you get a game over.** Either run into an enemy until Samus dies, or reload the last checkpoint through the menu accessed with the minus button.
     - **You may not use more missiles or power bombs than you've received from the randomizer.**
     - **Energy tanks are not accounted for in logic (not yet, at least).** I tried to avoid including hellruns in logic, but there are a few instances where they are expected (mostly when it extends to just 1 screen). These checks don't tend to need much energy, but a few can take a couple energy tanks to get. **If you are logically expected to be able to do one of these checks but haven't been sent the energy tanks to do it, feel free to do the check anyways.**
+  
+**Upgrade order**:
+1. Charge Beam
+2. Spider Magnet
+3. Phantom Cloak
+4. Wide Beam
+5. Morph Ball
+6. Varia Suit
+7. Diffusion Beam
+8. Morph Ball Bomb
+9. Flash Shift
+10. Speed Booster
+11. Grapple Beam
+12. Super Missile
+13. Plasma Beam
+14. Spin Boost
+15. Ice Missile
+16. Storm Missiles
+17. Space Jump
+18. Gravity Suit
+19. Screw Attack
+20. Cross Bomb
+21. Wave Beam
+22. Power Bomb
   
 That's pretty much all you should need to know rules-wise, so let's move on to the:
 
@@ -31,3 +55,5 @@ That's all the settings (for now), so that's all from me, unless you need help i
 Apworld: Double click the apworld to have it automatically install to the correct folder in Archipelago's files. 
 
 Poptracker pack: Unzip the pack and move it to the "Packs" folder in Poptracker.
+
+YAML: To get a YAML for the randomizer, use the "Options Creator" in the Archipelago Launcher after installing the apworld.
